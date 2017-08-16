@@ -1,0 +1,999 @@
+2017-02-25 09:57:42,233 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 09:57:42,934 [    701]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 655 ms
+2017-02-25 09:57:43,210 [    977]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 09:57:44,987 [   2754]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1777 ms
+2017-02-25 09:57:44,988 [   2755]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 09:57:46,534 [   4301]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 09:57:47,002 [   4769]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 09:57:49,336 [   7103]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 09:57:49,341 [   7108]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 09:57:49,690 [   7457]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 09:57:49,692 [   7459]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 09:57:49,716 [   7483]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 09:57:49,717 [   7484]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 09:57:49,795 [   7562]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 09:57:49,796 [   7563]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:03:15,730 [ 333497]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:03:15,992 [ 333759]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 325329 ms, 0 sources processed
+2017-02-25 10:18:51,174 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 10:18:51,611 [    437]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 383 ms
+2017-02-25 10:18:51,715 [    541]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 10:18:52,324 [   1150]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 609 ms
+2017-02-25 10:18:52,324 [   1150]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 10:18:52,451 [   1277]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 10:18:52,484 [   1310]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 10:18:52,678 [   1504]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 10:18:52,685 [   1511]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 10:18:52,762 [   1588]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 10:18:52,764 [   1590]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 10:18:52,782 [   1608]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 10:18:52,783 [   1609]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 10:18:52,878 [   1704]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 10:18:52,878 [   1704]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:19:03,464 [  12290]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:19:03,520 [  12346]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 10645 ms, 0 sources processed
+2017-02-25 10:27:38,490 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 10:27:38,951 [    461]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 404 ms
+2017-02-25 10:27:39,073 [    583]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 10:27:39,510 [   1020]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 437 ms
+2017-02-25 10:27:39,510 [   1020]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 10:27:39,651 [   1161]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 10:27:39,683 [   1193]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 10:27:39,883 [   1393]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 10:27:39,889 [   1399]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 10:27:39,942 [   1452]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 10:27:39,943 [   1453]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 10:27:39,956 [   1466]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 10:27:39,956 [   1466]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 10:27:40,041 [   1551]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 10:27:40,041 [   1551]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:27:49,196 [  10706]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:27:49,237 [  10747]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9205 ms, 0 sources processed
+2017-02-25 10:30:10,297 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 10:30:10,728 [    431]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 384 ms
+2017-02-25 10:30:10,835 [    538]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 10:30:11,277 [    980]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 442 ms
+2017-02-25 10:30:11,278 [    981]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 10:30:11,402 [   1105]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 10:30:11,430 [   1133]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 10:30:11,633 [   1336]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 10:30:11,638 [   1341]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 10:30:11,688 [   1391]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 10:30:11,689 [   1392]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 10:30:11,710 [   1413]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 10:30:11,711 [   1414]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 10:30:11,830 [   1533]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 10:30:11,831 [   1534]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:30:21,833 [  11536]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:30:21,869 [  11572]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 10102 ms, 0 sources processed
+2017-02-25 10:54:51,341 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 10:54:51,798 [    457]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 409 ms
+2017-02-25 10:54:51,910 [    569]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 10:54:52,358 [   1017]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 448 ms
+2017-02-25 10:54:52,359 [   1018]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 10:54:52,489 [   1148]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 10:54:52,517 [   1176]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 10:54:52,705 [   1364]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 10:54:52,710 [   1369]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 10:54:52,760 [   1419]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 10:54:52,762 [   1421]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 10:54:52,775 [   1434]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 10:54:52,775 [   1434]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 10:54:52,852 [   1511]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 10:54:52,852 [   1511]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:55:04,389 [  13048]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:55:04,458 [  13117]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 11563 ms, 0 sources processed
+2017-02-25 10:56:52,652 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 10:56:53,109 [    458]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 418 ms
+2017-02-25 10:56:53,219 [    568]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 10:56:53,651 [   1000]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 431 ms
+2017-02-25 10:56:53,651 [   1000]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 10:56:53,808 [   1157]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 10:56:53,836 [   1185]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 10:56:54,031 [   1380]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 10:56:54,037 [   1386]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 10:56:54,086 [   1435]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 10:56:54,087 [   1436]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 10:56:54,103 [   1452]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 10:56:54,104 [   1453]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 10:56:54,192 [   1541]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 10:56:54,192 [   1541]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 10:57:05,015 [  12364]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 10:57:05,071 [  12420]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 10886 ms, 0 sources processed
+2017-02-25 11:02:47,874 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 11:02:48,278 [    404]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 358 ms
+2017-02-25 11:02:48,386 [    512]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 11:02:48,817 [    943]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 431 ms
+2017-02-25 11:02:48,817 [    943]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 11:02:48,966 [   1092]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 11:02:49,001 [   1127]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 11:02:49,198 [   1324]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 11:02:49,204 [   1330]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 11:02:49,252 [   1378]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 11:02:49,253 [   1379]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 11:02:49,265 [   1391]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 11:02:49,265 [   1391]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 11:02:49,349 [   1475]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 11:02:49,349 [   1475]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 11:02:58,905 [  11031]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 11:02:58,944 [  11070]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9611 ms, 0 sources processed
+2017-02-25 11:08:25,675 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 11:08:26,107 [    432]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 375 ms
+2017-02-25 11:08:26,211 [    536]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 11:08:26,638 [    963]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 427 ms
+2017-02-25 11:08:26,638 [    963]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 11:08:26,796 [   1121]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 11:08:26,826 [   1151]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 11:08:27,036 [   1361]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 11:08:27,044 [   1369]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 11:08:27,099 [   1424]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 11:08:27,100 [   1425]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 11:08:27,115 [   1440]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 11:08:27,115 [   1440]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 11:08:27,201 [   1526]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 11:08:27,201 [   1526]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 11:08:31,400 [   5725]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 11:08:31,466 [   5791]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 4232 ms, 0 sources processed
+2017-02-25 11:09:12,859 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 11:09:13,270 [    411]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 366 ms
+2017-02-25 11:09:13,379 [    520]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 11:09:13,826 [    967]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 447 ms
+2017-02-25 11:09:13,826 [    967]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 11:09:13,960 [   1101]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 11:09:13,989 [   1130]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 11:09:14,195 [   1336]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 11:09:14,202 [   1343]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 11:09:14,253 [   1394]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 11:09:14,254 [   1395]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 11:09:14,288 [   1429]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 11:09:14,289 [   1430]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 11:09:14,375 [   1516]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 11:09:14,375 [   1516]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 11:09:23,833 [  10974]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 11:09:23,870 [  11011]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9520 ms, 0 sources processed
+2017-02-25 11:11:45,411 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-02-25 11:11:45,818 [    407]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 361 ms
+2017-02-25 11:11:45,927 [    516]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-02-25 11:11:46,371 [    960]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 444 ms
+2017-02-25 11:11:46,371 [    960]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-02-25 11:11:46,509 [   1098]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-25 11:11:46,540 [   1129]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-02-25 11:11:46,754 [   1343]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-02-25 11:11:46,761 [   1350]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-02-25 11:11:46,807 [   1396]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-02-25 11:11:46,808 [   1397]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-02-25 11:11:46,822 [   1411]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-02-25 11:11:46,822 [   1411]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-02-25 11:11:46,898 [   1487]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-02-25 11:11:46,899 [   1488]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-02-25 11:11:56,178 [  10767]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-02-25 11:11:56,215 [  10804]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9323 ms, 0 sources processed
+2017-03-04 10:15:13,410 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-04 10:15:14,126 [    716]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 655 ms
+2017-03-04 10:15:14,357 [    947]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-04 10:15:15,441 [   2031]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1084 ms
+2017-03-04 10:15:15,441 [   2031]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-04 10:15:15,611 [   2201]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-04 10:15:15,709 [   2299]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-04 10:15:16,413 [   3003]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-04 10:15:16,420 [   3010]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-04 10:15:16,632 [   3222]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-04 10:15:16,634 [   3224]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-04 10:15:16,655 [   3245]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-04 10:15:16,656 [   3246]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-04 10:15:16,843 [   3433]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-04 10:15:16,843 [   3433]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-04 10:16:30,001 [  76591]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-04 10:16:31,235 [  77825]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 72713 ms, 0 sources processed
+2017-03-04 10:31:57,291 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-04 10:31:57,717 [    426]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 376 ms
+2017-03-04 10:31:57,827 [    536]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-04 10:31:58,273 [    982]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 446 ms
+2017-03-04 10:31:58,273 [    982]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-04 10:31:58,410 [   1119]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-04 10:31:58,437 [   1146]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-04 10:31:58,626 [   1335]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-04 10:31:58,633 [   1342]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-04 10:31:58,684 [   1393]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-04 10:31:58,685 [   1394]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-04 10:31:58,698 [   1407]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-04 10:31:58,698 [   1407]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-04 10:31:58,775 [   1484]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-04 10:31:58,775 [   1484]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-04 10:32:10,338 [  13047]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-04 10:32:10,376 [  13085]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 11611 ms, 0 sources processed
+2017-03-04 10:45:21,155 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-04 10:45:21,569 [    414]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 370 ms
+2017-03-04 10:45:21,687 [    532]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-04 10:45:22,150 [    995]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 464 ms
+2017-03-04 10:45:22,150 [    995]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-04 10:45:22,281 [   1126]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-04 10:45:22,309 [   1154]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-04 10:45:22,536 [   1381]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-04 10:45:22,541 [   1386]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-04 10:45:22,596 [   1441]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-04 10:45:22,603 [   1448]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-04 10:45:22,622 [   1467]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-04 10:45:22,623 [   1468]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-04 10:45:22,714 [   1559]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-04 10:45:22,714 [   1559]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-04 10:45:34,277 [  13122]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-04 10:45:34,337 [  13182]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 11602 ms, 0 sources processed
+2017-03-04 10:58:25,716 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-04 10:58:26,157 [    442]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 391 ms
+2017-03-04 10:58:26,281 [    566]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-04 10:58:26,716 [   1001]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 435 ms
+2017-03-04 10:58:26,717 [   1002]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-04 10:58:26,853 [   1138]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-04 10:58:26,886 [   1171]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-04 10:58:27,074 [   1359]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-04 10:58:27,081 [   1366]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-04 10:58:27,133 [   1418]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-04 10:58:27,134 [   1419]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-04 10:58:27,148 [   1433]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-04 10:58:27,149 [   1434]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-04 10:58:27,236 [   1521]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-04 10:58:27,236 [   1521]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-04 10:58:36,203 [  10488]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-04 10:58:36,240 [  10525]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9022 ms, 0 sources processed
+2017-03-04 10:59:13,589 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-04 10:59:13,993 [    404]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 361 ms
+2017-03-04 10:59:14,104 [    515]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-04 10:59:14,548 [    959]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 444 ms
+2017-03-04 10:59:14,548 [    959]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-04 10:59:14,682 [   1093]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-04 10:59:14,708 [   1119]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-04 10:59:14,900 [   1311]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-04 10:59:14,905 [   1316]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-04 10:59:14,958 [   1369]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-04 10:59:14,959 [   1370]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-04 10:59:14,973 [   1384]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-04 10:59:14,973 [   1384]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-04 10:59:15,063 [   1474]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-04 10:59:15,063 [   1474]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-04 10:59:23,626 [  10037]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-04 10:59:23,661 [  10072]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 8615 ms, 0 sources processed
+2017-03-18 10:08:41,589 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 10:08:42,177 [    588]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 547 ms
+2017-03-18 10:08:42,405 [    816]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 10:08:43,372 [   1783]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 967 ms
+2017-03-18 10:08:43,373 [   1784]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 10:08:43,556 [   1967]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 10:08:43,661 [   2072]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 10:08:44,400 [   2811]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 10:08:44,408 [   2819]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 10:08:44,588 [   2999]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 10:08:44,590 [   3001]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 10:08:44,614 [   3025]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 10:08:44,614 [   3025]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 10:08:44,763 [   3174]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 10:08:44,764 [   3175]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 10:09:57,611 [  76022]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 10:09:57,834 [  76245]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 72694 ms, 0 sources processed
+2017-03-18 11:13:33,826 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:13:34,244 [    419]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 372 ms
+2017-03-18 11:13:34,362 [    537]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:13:34,836 [   1011]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 474 ms
+2017-03-18 11:13:34,836 [   1011]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:13:34,999 [   1174]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:13:35,037 [   1212]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:13:35,264 [   1439]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:13:35,271 [   1446]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:13:35,379 [   1554]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:13:35,381 [   1556]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:13:35,401 [   1576]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:13:35,401 [   1576]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:13:35,480 [   1655]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:13:35,480 [   1655]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:15:02,246 [  88421]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:15:02,295 [  88470]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 86809 ms, 0 sources processed
+2017-03-18 11:15:49,532 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:15:49,935 [    403]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 355 ms
+2017-03-18 11:15:50,044 [    512]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:15:50,491 [    959]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 447 ms
+2017-03-18 11:15:50,491 [    959]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:15:50,634 [   1102]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:15:50,663 [   1131]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:15:50,910 [   1378]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:15:50,917 [   1385]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:15:50,975 [   1443]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:15:50,976 [   1444]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:15:50,988 [   1456]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:15:50,988 [   1456]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:15:51,076 [   1544]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:15:51,077 [   1545]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:16:02,185 [  12653]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:16:02,223 [  12691]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 11169 ms, 0 sources processed
+2017-03-18 11:41:17,666 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:41:18,091 [    425]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 374 ms
+2017-03-18 11:41:18,206 [    540]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:41:18,637 [    971]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 431 ms
+2017-03-18 11:41:18,637 [    971]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:41:18,781 [   1115]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:41:18,821 [   1155]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:41:19,019 [   1353]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:41:19,027 [   1361]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:41:19,126 [   1460]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:41:19,166 [   1500]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:41:19,181 [   1515]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:41:19,182 [   1516]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:41:19,304 [   1638]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:41:19,304 [   1638]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:41:24,381 [   6715]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:41:24,437 [   6771]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 5212 ms, 0 sources processed
+2017-03-18 11:42:31,588 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:42:31,993 [    405]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 359 ms
+2017-03-18 11:42:32,106 [    518]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:42:32,546 [    958]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 440 ms
+2017-03-18 11:42:32,546 [    958]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:42:32,724 [   1136]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:42:32,756 [   1168]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:42:32,948 [   1360]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:42:32,953 [   1365]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:42:33,009 [   1421]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:42:33,011 [   1423]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:42:33,035 [   1447]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:42:33,035 [   1447]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:42:33,125 [   1537]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:42:33,125 [   1537]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:42:37,449 [   5861]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:42:37,503 [   5915]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 4351 ms, 0 sources processed
+2017-03-18 11:44:10,269 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:44:10,667 [    398]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 356 ms
+2017-03-18 11:44:10,777 [    508]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:44:11,256 [    987]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 479 ms
+2017-03-18 11:44:11,256 [    987]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:44:11,395 [   1126]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:44:11,455 [   1186]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:44:11,653 [   1384]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:44:11,660 [   1391]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:44:11,719 [   1450]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:44:11,720 [   1451]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:44:11,735 [   1466]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:44:11,735 [   1466]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:44:11,821 [   1552]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:44:11,822 [   1553]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:44:21,707 [  11438]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:44:21,745 [  11476]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9935 ms, 0 sources processed
+2017-03-18 11:47:37,775 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 11:47:38,202 [    427]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 381 ms
+2017-03-18 11:47:38,308 [    533]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 11:47:38,749 [    974]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 441 ms
+2017-03-18 11:47:38,749 [    974]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 11:47:38,903 [   1128]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 11:47:38,942 [   1167]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 11:47:39,145 [   1370]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 11:47:39,151 [   1376]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 11:47:39,219 [   1444]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 11:47:39,220 [   1445]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 11:47:39,240 [   1465]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 11:47:39,240 [   1465]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 11:47:39,332 [   1557]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 11:47:39,333 [   1558]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 11:47:48,624 [  10849]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 11:47:48,662 [  10887]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 9363 ms, 0 sources processed
+2017-03-18 12:27:02,741 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 12:27:03,158 [    417]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 365 ms
+2017-03-18 12:27:03,269 [    528]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 12:27:03,718 [    977]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 449 ms
+2017-03-18 12:27:03,718 [    977]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 12:27:03,869 [   1128]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 12:27:03,908 [   1167]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 12:27:04,094 [   1353]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 12:27:04,099 [   1358]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 12:27:04,157 [   1416]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 12:27:04,158 [   1417]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 12:27:04,175 [   1434]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 12:27:04,175 [   1434]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 12:27:04,274 [   1533]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 12:27:04,274 [   1533]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 12:27:16,361 [  13620]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 12:27:16,403 [  13662]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 12139 ms, 0 sources processed
+2017-03-18 13:28:41,240 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 13:28:41,650 [    410]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 369 ms
+2017-03-18 13:28:41,763 [    523]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 13:28:42,206 [    966]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 443 ms
+2017-03-18 13:28:42,206 [    966]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 13:28:42,354 [   1114]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 13:28:42,381 [   1141]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 13:28:42,576 [   1336]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 13:28:42,583 [   1343]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 13:28:42,654 [   1414]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 13:28:42,655 [   1415]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 13:28:42,672 [   1432]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 13:28:42,672 [   1432]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 13:28:42,784 [   1544]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 13:28:42,784 [   1544]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 13:28:50,825 [   9585]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 13:28:50,873 [   9633]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 7966 ms, 0 sources processed
+2017-03-18 13:30:00,824 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 13:30:01,224 [    401]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 358 ms
+2017-03-18 13:30:01,338 [    515]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 13:30:01,792 [    969]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 454 ms
+2017-03-18 13:30:01,792 [    969]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 13:30:01,940 [   1117]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 13:30:01,977 [   1154]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 13:30:02,156 [   1333]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 13:30:02,161 [   1338]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 13:30:02,227 [   1404]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 13:30:02,229 [   1406]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 13:30:02,245 [   1422]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 13:30:02,246 [   1423]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 13:30:02,335 [   1512]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 13:30:02,336 [   1513]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 13:30:05,958 [   5135]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 13:30:06,002 [   5179]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 3662 ms, 0 sources processed
+2017-03-18 13:31:19,696 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-18 13:31:20,106 [    410]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 368 ms
+2017-03-18 13:31:20,217 [    521]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-18 13:31:20,651 [    955]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 434 ms
+2017-03-18 13:31:20,651 [    955]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-18 13:31:20,806 [   1110]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-18 13:31:20,843 [   1147]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-18 13:31:21,043 [   1347]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-18 13:31:21,048 [   1352]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-18 13:31:21,109 [   1413]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-18 13:31:21,110 [   1414]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-18 13:31:21,131 [   1435]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-18 13:31:21,131 [   1435]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-18 13:31:21,223 [   1527]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-18 13:31:21,223 [   1527]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-18 13:31:35,853 [  16157]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-18 13:31:35,897 [  16201]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 14681 ms, 0 sources processed
+2017-03-25 09:15:52,024 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: C:/Program Files/Android/Android Studio/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_91/lib/tools.jar;C:/Program Files/Android/Android Studio/lib/optimizedFileManager.jar;C:/Program Files/Android/Android Studio/lib/ecj-4.4.jar
+2017-03-25 09:15:52,492 [    468]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 416 ms
+2017-03-25 09:15:52,733 [    709]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = C:/Users/Student/.AndroidStudio2.1/Java101, global options path = C:/Users/Student/.AndroidStudio2.1/config/options
+2017-03-25 09:15:53,208 [   1184]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 475 ms
+2017-03-25 09:15:53,208 [   1184]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 2 modules, 12 libraries
+2017-03-25 09:15:53,360 [   1336]   INFO - .JpsGradleExtensionServiceImpl - C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\Users\Student\.AndroidStudio2.1\system\compile-server\java101_de34f261\gradle\configuration.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.intellij.openapi.util.JDOMUtil.loadDocument(JDOMUtil.java:324)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:125)
+	at org.jetbrains.jps.gradle.model.impl.JpsGradleExtensionServiceImpl.getGradleProjectConfiguration(JpsGradleExtensionServiceImpl.java:113)
+	at org.jetbrains.jps.gradle.model.impl.GradleResourcesTarget.computeRootDescriptors(GradleResourcesTarget.java:69)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:266)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:125)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler$1.run(BuildMain.java:232)
+	at org.jetbrains.jps.service.impl.SharedThreadPoolImpl$1.run(SharedThreadPoolImpl.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-25 09:15:53,398 [   1374]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=631767040
+2017-03-25 09:15:53,731 [   1707]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-03-25 09:15:53,736 [   1712]   INFO - r.api.ClassFilesIndicesBuilder - class files data index disabled
+2017-03-25 09:15:53,849 [   1825]   INFO - der.AndroidGradleTargetBuilder - Using execution settings: BuilderExecutionSettings[buildMode=ASSEMBLE, commandLineOptions=[], embeddedModeEnabled=false, gradleHomeDir=C:\Users\Student\.gradle\wrapper\dists\gradle-2.10-all\a4w5fzrkeut1ox71xslb49gst\gradle-2.10, gradleServiceDir=null, javaHomeDir=C:\Program Files\Java\jdk1.8.0_91, jvmOptions=[], gradleTasksToInvoke=[:app:assembleDebug], offlineBuild=false, parallelBuild=false, projectDir=C:\Users\Student\.AndroidStudio2.1\Java101, verboseLoggingEnabled=false]
+2017-03-25 09:15:53,850 [   1826]   INFO - der.AndroidGradleTargetBuilder - Gradle build using tasks: [:app:assembleDebug]
+2017-03-25 09:15:53,865 [   1841]   INFO - dle.util.AndroidGradleSettings - Found Android SDK home at 'C:\Users\Student\AppData\Local\Android\Sdk' (from local.properties file)
+2017-03-25 09:15:53,866 [   1842]   INFO - der.AndroidGradleTargetBuilder - About to build project 'Java101' located at C:\Users\Student\.AndroidStudio2.1\Java101
+2017-03-25 09:15:53,960 [   1936]   INFO - der.AndroidGradleTargetBuilder - Build JVM args: []
+2017-03-25 09:15:53,960 [   1936]   INFO - der.AndroidGradleTargetBuilder - Build command line args: [-Pandroid.injected.invoked.from.ide=true, --configure-on-demand]
+2017-03-25 09:16:49,214 [  57190]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-03-25 09:16:49,423 [  57399]   INFO - rains.jps.cmdline.BuildSession - Build duration: 'Android Gradle Target Builder' builder took 54982 ms, 0 sources processed

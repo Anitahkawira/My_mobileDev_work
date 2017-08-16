@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\codeStyleSettings.xml" timestamp="1477305183587" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\compiler.xml" timestamp="1477061913518" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\copyright\profiles_settings.xml" timestamp="1477061913681" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\encodings.xml" timestamp="1477061913697" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\gradle.xml" timestamp="1477061923641" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1477474583715" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1477474583734" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\design_24_0_0.xml" timestamp="1477586905379" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_analytics_9_8_0.xml" timestamp="1477474583743" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_analytics_impl_9_8_0.xml" timestamp="1477474583752" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_auth_9_8_0.xml" timestamp="1477474583779" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_auth_common_9_8_0.xml" timestamp="1477474583790" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_auth_module_9_8_0.xml" timestamp="1477474583800" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_common_9_8_0.xml" timestamp="1477474583811" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_core_9_8_0.xml" timestamp="1477474583820" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_database_9_8_0.xml" timestamp="1477474583831" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_database_connection_9_8_0.xml" timestamp="1477474583841" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\firebase_iid_9_8_0.xml" timestamp="1477474583851" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1477474615162" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\junit_4_12.xml" timestamp="1477474615162" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\play_services_base_9_8_0.xml" timestamp="1477474583925" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\play_services_basement_9_8_0.xml" timestamp="1477474583934" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\play_services_tasks_9_8_0.xml" timestamp="1477474583944" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\recyclerview_v7_24_0_0.xml" timestamp="1477586905379" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1477474615178" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\support_v4_24_0_0.xml" timestamp="1477474583962" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1477474583971" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\misc.xml" timestamp="1477915852383" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\modules.xml" timestamp="1477061923708" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\runConfigurations.xml" timestamp="1477061923718" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\vcs.xml" timestamp="1477066137410" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\.idea\workspace.xml" timestamp="1478683599610" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\EAZYQ.iml" timestamp="1477061923590" />
+    <file path="C:\Users\Student\AndroidStudioProjects\EAZYQ\app\app.iml" timestamp="1478682765641" />
+  </project-files>
+</conversion>
+

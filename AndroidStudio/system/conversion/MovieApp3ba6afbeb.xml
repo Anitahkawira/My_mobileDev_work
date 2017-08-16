@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\compiler.xml" timestamp="1474029939622" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\copyright\profiles_settings.xml" timestamp="1474029939728" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\encodings.xml" timestamp="1474029939741" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\gradle.xml" timestamp="1474030000682" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1474030000721" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1474030000760" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1474030000769" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\junit_4_12.xml" timestamp="1474030000793" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1474030000804" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\support_v4_24_0_0.xml" timestamp="1474030000815" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1474030000826" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\misc.xml" timestamp="1474096716224" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\modules.xml" timestamp="1474030000697" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\runConfigurations.xml" timestamp="1474030000708" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\.idea\workspace.xml" timestamp="1474096973048" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\MovieApp3.iml" timestamp="1474017747115" />
+    <file path="C:\Users\Student\AndroidStudioProjects\MovieApp3\app\app.iml" timestamp="1474030000617" />
+  </project-files>
+</conversion>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layer_list">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language: English (United States)"
+        android:id="@+id/tvLanguage"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorWhite"
+        android:padding="15dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivLogo"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/tvLanguage"
+        android:text="Login with Facebook"
+        android:drawableLeft="@mipmap/facebook"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/utUserEmail"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Username or email"
+        android:layout_below="@+id/ivLogo"
+        android:textColorHint="@color/colorWhite"
+        android:padding="15dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@+id/utUserEmail"
+        android:textColorHint="@color/colorWhite"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/etPassword"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot your login details? Get help signing in."
+        android:id="@+id/textView3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@+id/btnLogin"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:id="@+id/tvOr"
+        android:gravity="center"
+        android:layout_below="@+id/textView3"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFacebook"
+        android:drawableLeft="@mipmap/facebook"
+        android:text="Log in with Facebook"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tvOr"
+        android:padding="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/btnSignUp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/half_overlay"/>
+
+</RelativeLayout>

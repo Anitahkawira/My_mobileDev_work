@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\compiler.xml" timestamp="1487402402877" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\copyright\profiles_settings.xml" timestamp="1487402402896" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\encodings.xml" timestamp="1487402402907" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\gradle.xml" timestamp="1487402418197" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\animated_vector_drawable_25_0_1.xml" timestamp="1487402418259" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\appcompat_v7_25_0_1.xml" timestamp="1488003419277" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1487402418288" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\junit_4_12.xml" timestamp="1487402418301" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_annotations_25_0_1.xml" timestamp="1487402418324" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_compat_25_0_1.xml" timestamp="1488003419289" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_core_ui_25_0_1.xml" timestamp="1488003419297" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_core_utils_25_0_1.xml" timestamp="1488003419307" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_fragment_25_0_1.xml" timestamp="1488003419315" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_media_compat_25_0_1.xml" timestamp="1488003419325" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_v4_25_0_1.xml" timestamp="1487402418393" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\libraries\support_vector_drawable_25_0_1.xml" timestamp="1487402418405" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\misc.xml" timestamp="1490423120240" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\modules.xml" timestamp="1487402418209" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\runConfigurations.xml" timestamp="1487402418222" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\.idea\workspace.xml" timestamp="1489842644298" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\Java101.iml" timestamp="1487402418137" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\Java101\app\app.iml" timestamp="1490361369756" />
+  </project-files>
+</conversion>
+

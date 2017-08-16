@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\compiler.xml" timestamp="1469259689324" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\copyright\profiles_settings.xml" timestamp="1469259689350" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\encodings.xml" timestamp="1469259689363" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\gradle.xml" timestamp="1469597765557" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\appcompat_v7_23_1_1.xml" timestamp="1469443114468" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\design_23_1_1.xml" timestamp="1469443114478" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\library_aar_1_0_0.xml" timestamp="1469259963043" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\recyclerview_v7_23_1_1.xml" timestamp="1469443114492" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\support_annotations_23_1_1.xml" timestamp="1469259963074" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\libraries\support_v4_23_1_1.xml" timestamp="1469443114505" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\misc.xml" timestamp="1473842062069" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\modules.xml" timestamp="1469259962996" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\runConfigurations.xml" timestamp="1469259788673" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\vcs.xml" timestamp="1469597968976" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\.idea\workspace.xml" timestamp="1478706674460" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\AndroidLoginAndRegistration.iml" timestamp="1469259962949" />
+    <file path="C:\Users\Student\Desktop\AndroidLoginAndRegistration\app\app.iml" timestamp="1477575219154" />
+  </project-files>
+</conversion>
+

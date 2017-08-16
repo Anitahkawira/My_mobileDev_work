@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\compiler.xml" timestamp="1500101976510" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\copyright\profiles_settings.xml" timestamp="1500101976557" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\encodings.xml" timestamp="1500101976572" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\gradle.xml" timestamp="1500102035858" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\animated_vector_drawable_25_3_1.xml" timestamp="1500102035905" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\appcompat_v7_25_3_1.xml" timestamp="1500102887255" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\converter_gson_2_1_0.xml" timestamp="1500722960704" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\design_25_3_1.xml" timestamp="1500124451543" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\gson_2_7.xml" timestamp="1500722960796" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1500102035936" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\junit_4_12.xml" timestamp="1500102035952" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\okhttp_3_8_0.xml" timestamp="1500722960871" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\okio_1_13_0.xml" timestamp="1500722960921" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\recyclerview_v7_25_3_1.xml" timestamp="1500124451553" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\retrofit_2_3_0.xml" timestamp="1500722960981" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_annotations_25_3_1.xml" timestamp="1500102035967" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_compat_25_3_1.xml" timestamp="1500102887286" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_core_ui_25_3_1.xml" timestamp="1500102887286" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_core_utils_25_3_1.xml" timestamp="1500102887302" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_fragment_25_3_1.xml" timestamp="1500102887302" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_media_compat_25_3_1.xml" timestamp="1500102887317" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_v4_25_3_1.xml" timestamp="1500102036045" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\support_vector_drawable_25_3_1.xml" timestamp="1500102036061" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\libraries\transition_25_3_1.xml" timestamp="1500102887317" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\misc.xml" timestamp="1500965212707" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\modules.xml" timestamp="1500102035874" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\runConfigurations.xml" timestamp="1500102035889" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\.idea\workspace.xml" timestamp="1502721269181" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\TmdbMovieApp.iml" timestamp="1500102035811" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\TmdbMovieApp\app\app.iml" timestamp="1502716889277" />
+  </project-files>
+</conversion>
+

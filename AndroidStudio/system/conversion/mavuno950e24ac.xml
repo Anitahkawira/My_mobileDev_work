@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\compiler.xml" timestamp="1470664466072" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\copyright\profiles_settings.xml" timestamp="1470664466088" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\encodings.xml" timestamp="1470664466088" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\gradle.xml" timestamp="1470664477975" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1476865096071" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1476865096085" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\design_24_0_0.xml" timestamp="1476865096109" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\firebase_client_android_2_5_2.xml" timestamp="1476865096144" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\firebase_client_jvm_2_5_2.xml" timestamp="1476865096161" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1476865096170" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\jackson_annotations_2_2_2.xml" timestamp="1476865096181" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\jackson_core_2_2_2.xml" timestamp="1476865096190" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\jackson_databind_2_2_2.xml" timestamp="1476865096217" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\junit_4_12.xml" timestamp="1476865096228" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\recyclerview_v7_24_0_0.xml" timestamp="1476865096238" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1476865096247" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\support_v4_24_0_0.xml" timestamp="1476865096257" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1476865096266" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\libraries\tubesock_0_0_12.xml" timestamp="1476865096311" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\misc.xml" timestamp="1476902100481" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\modules.xml" timestamp="1470664477975" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\runConfigurations.xml" timestamp="1470664477991" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\vcs.xml" timestamp="1470915090153" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\.idea\workspace.xml" timestamp="1480435454618" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\app\app.iml" timestamp="1480432293243" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\mavuno\mavuno.iml" timestamp="1468662618831" />
+  </project-files>
+</conversion>
+

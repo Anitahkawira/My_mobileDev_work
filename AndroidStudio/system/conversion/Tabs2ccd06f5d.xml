@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\compiler.xml" timestamp="1466576445934" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\copyright\profiles_settings.xml" timestamp="1466576445948" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\encodings.xml" timestamp="1466576445958" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\gradle.xml" timestamp="1466576452205" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1467031200871" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1467031200901" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\design_24_0_0.xml" timestamp="1467031200928" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_analytics_9_0_2.xml" timestamp="1467031200980" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_analytics_impl_9_0_2.xml" timestamp="1467031201033" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_auth_9_0_2.xml" timestamp="1467031201058" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_auth_common_9_0_2.xml" timestamp="1467031201077" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_auth_module_9_0_2.xml" timestamp="1467031201091" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_common_9_0_2.xml" timestamp="1467031201157" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_config_9_0_2.xml" timestamp="1467031201243" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_crash_9_0_2.xml" timestamp="1467031201297" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_database_9_0_2.xml" timestamp="1467031201314" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_database_connection_9_0_2.xml" timestamp="1467031201337" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_iid_9_0_2.xml" timestamp="1467031201352" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_messaging_9_0_2.xml" timestamp="1467031201370" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_storage_9_0_2.xml" timestamp="1467031201392" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\firebase_storage_common_9_0_2.xml" timestamp="1467031201404" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1467031201426" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\junit_4_12.xml" timestamp="1467031201449" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\mediarouter_v7_23_0_0.xml" timestamp="1467112134097" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_9_0_2.xml" timestamp="1467031201490" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_ads_9_0_2.xml" timestamp="1467031201505" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_ads_lite_9_0_2.xml" timestamp="1467031201520" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_analytics_9_0_2.xml" timestamp="1467031201533" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_analytics_impl_9_0_2.xml" timestamp="1467031201552" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_appindexing_9_0_2.xml" timestamp="1467031201574" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_appinvite_9_0_2.xml" timestamp="1467031201593" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_auth_9_0_2.xml" timestamp="1467031201607" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_auth_base_9_0_2.xml" timestamp="1467031201618" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_base_9_0_2.xml" timestamp="1467031201643" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_basement_9_0_2.xml" timestamp="1467031201670" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_cast_9_0_2.xml" timestamp="1467031201684" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_drive_9_0_2.xml" timestamp="1467031201725" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_fitness_9_0_2.xml" timestamp="1467031201756" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_games_9_0_2.xml" timestamp="1467031201797" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_gcm_9_0_2.xml" timestamp="1467031201824" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_identity_9_0_2.xml" timestamp="1467031201852" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_iid_9_0_2.xml" timestamp="1467031201904" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_location_9_0_2.xml" timestamp="1467031201925" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_maps_9_0_2.xml" timestamp="1467031201957" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_nearby_9_0_2.xml" timestamp="1467031201994" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_panorama_9_0_2.xml" timestamp="1467031202009" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_plus_9_0_2.xml" timestamp="1467031202044" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_safetynet_9_0_2.xml" timestamp="1467031202064" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_tagmanager_9_0_2.xml" timestamp="1467031202083" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_tagmanager_api_9_0_2.xml" timestamp="1467031202146" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_tasks_9_0_2.xml" timestamp="1467031202169" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_vision_9_0_2.xml" timestamp="1467031202192" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_wallet_9_0_2.xml" timestamp="1467031202216" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\play_services_wearable_9_0_2.xml" timestamp="1467031202245" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\recyclerview_v7_24_0_0.xml" timestamp="1467031202261" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1467031202284" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\support_v4_24_0_0.xml" timestamp="1467031202310" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1467031202322" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\misc.xml" timestamp="1467181505384" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\modules.xml" timestamp="1466576452219" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\runConfigurations.xml" timestamp="1466576452232" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\vcs.xml" timestamp="1467439817196" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\.idea\workspace.xml" timestamp="1467990120719" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\Tabs2.iml" timestamp="1466576452140" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs2\app\app.iml" timestamp="1467181505184" />
+  </project-files>
+</conversion>
+

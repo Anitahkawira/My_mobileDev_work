@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\compiler.xml" timestamp="1471532885147" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\copyright\profiles_settings.xml" timestamp="1471532885170" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\encodings.xml" timestamp="1471532885182" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\gradle.xml" timestamp="1471534315074" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\animated_vector_drawable_24_1_1.xml" timestamp="1471534315120" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\appcompat_v7_24_1_1.xml" timestamp="1473080116193" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1471534315169" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\junit_4_12.xml" timestamp="1471534315180" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\support_annotations_24_1_1.xml" timestamp="1471534315199" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\support_v4_24_1_1.xml" timestamp="1473080116209" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\support_vector_drawable_24_1_1.xml" timestamp="1471534315231" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\libraries\volley_1_0_0.xml" timestamp="1471534315249" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\misc.xml" timestamp="1473080116193" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\modules.xml" timestamp="1471534315084" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\runConfigurations.xml" timestamp="1471533998347" />
+    <file path="C:\Users\Student\Desktop\MovieApp\.idea\workspace.xml" timestamp="1473151786517" />
+    <file path="C:\Users\Student\Desktop\MovieApp\MovieApp.iml" timestamp="1471534314987" />
+    <file path="C:\Users\Student\Desktop\MovieApp\app\app.iml" timestamp="1473143120170" />
+  </project-files>
+</conversion>
+

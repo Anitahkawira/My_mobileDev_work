@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\compiler.xml" timestamp="1466427769452" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\copyright\profiles_settings.xml" timestamp="1466427769478" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\dictionaries\Student.xml" timestamp="1466575039044" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\encodings.xml" timestamp="1466427769484" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\gradle.xml" timestamp="1466427833194" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\inspectionProfiles\Project_Default.xml" timestamp="1466573788650" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\inspectionProfiles\profiles_settings.xml" timestamp="1466573788666" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\animated_vector_drawable_23_4_0.xml" timestamp="1466574793969" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\appcompat_v7_23_4_0.xml" timestamp="1466575039044" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\design_23_0_0.xml" timestamp="1466574793983" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1466427833339" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\junit_4_12.xml" timestamp="1466427833354" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\support_annotations_23_4_0.xml" timestamp="1466574793992" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\support_v4_23_4_0.xml" timestamp="1466575039060" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\libraries\support_vector_drawable_23_4_0.xml" timestamp="1466574794010" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\misc.xml" timestamp="1466576154271" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\modules.xml" timestamp="1466427833205" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\runConfigurations.xml" timestamp="1466427833222" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\.idea\workspace.xml" timestamp="1466576472097" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\Tabs.iml" timestamp="1466427833122" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Tabs\app\app.iml" timestamp="1466576154248" />
+  </project-files>
+</conversion>
+

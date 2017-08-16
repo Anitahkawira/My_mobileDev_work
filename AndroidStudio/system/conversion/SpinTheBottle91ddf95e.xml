@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\compiler.xml" timestamp="1468908763368" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\copyright\profiles_settings.xml" timestamp="1468908763386" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\encodings.xml" timestamp="1468908763396" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\gradle.xml" timestamp="1468908820549" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1468908820594" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1468910129290" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1468908820646" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\libraries\support_v4_24_0_0.xml" timestamp="1468910129298" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1468908820665" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\misc.xml" timestamp="1473155566123" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\modules.xml" timestamp="1468908820562" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\runConfigurations.xml" timestamp="1468908820574" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\.idea\workspace.xml" timestamp="1473155566072" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\SpinTheBottle.iml" timestamp="1468908820494" />
+    <file path="C:\Users\Student\AndroidStudioProjects\SpinTheBottle\app\app.iml" timestamp="1470928402358" />
+  </project-files>
+</conversion>
+

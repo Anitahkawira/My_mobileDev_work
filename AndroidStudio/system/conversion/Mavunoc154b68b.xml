@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\compiler.xml" timestamp="1473151956610" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\copyright\profiles_settings.xml" timestamp="1473151956781" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\encodings.xml" timestamp="1473151956818" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\gradle.xml" timestamp="1473152346157" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1473152346208" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1473152346222" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\design_24_0_0.xml" timestamp="1473152346234" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1473152346245" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\junit_4_12.xml" timestamp="1473152346265" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\recyclerview_v7_24_0_0.xml" timestamp="1473152346277" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1473152346287" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\support_v4_24_0_0.xml" timestamp="1473152346297" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1473152346308" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\misc.xml" timestamp="1473155429351" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\modules.xml" timestamp="1473152346172" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\runConfigurations.xml" timestamp="1473152346184" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\.idea\workspace.xml" timestamp="1473156854523" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\Mavuno.iml" timestamp="1468583265158" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno\app\app.iml" timestamp="1470915251323" />
+  </project-files>
+</conversion>
+

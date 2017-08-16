@@ -1,0 +1,12 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>alanisawesomeMap</find>
+      <find>onLoginClicked</find>
+      <find>'</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>produce_details</replace>
+    </replaceStrings>
+  </component>
+</application>

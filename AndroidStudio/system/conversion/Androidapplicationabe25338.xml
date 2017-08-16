@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\compiler.xml" timestamp="1466418976527" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\copyright\profiles_settings.xml" timestamp="1466418976543" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\encodings.xml" timestamp="1466418976553" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\gradle.xml" timestamp="1466419011576" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\inspectionProfiles\Project_Default.xml" timestamp="1466419137071" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\inspectionProfiles\profiles_settings.xml" timestamp="1466419137089" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\appcompat_v7_23_0_0.xml" timestamp="1466422456543" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\design_23_0_0.xml" timestamp="1466422456553" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1466422456561" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\junit_4_12.xml" timestamp="1466422456569" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\support_annotations_23_0_0.xml" timestamp="1466422456578" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\libraries\support_v4_23_0_0.xml" timestamp="1466422456587" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\misc.xml" timestamp="1466419049356" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\modules.xml" timestamp="1466419011590" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\runConfigurations.xml" timestamp="1466419011602" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\.idea\workspace.xml" timestamp="1466427948229" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\Androidapplication.iml" timestamp="1466419011539" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Androidapplication\app\app.iml" timestamp="1466422742892" />
+  </project-files>
+</conversion>
+

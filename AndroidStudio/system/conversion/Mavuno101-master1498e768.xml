@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\compiler.xml" timestamp="1477651535017" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\copyright\profiles_settings.xml" timestamp="1477651535048" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\encodings.xml" timestamp="1477651535064" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\gradle.xml" timestamp="1477651584111" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\misc.xml" timestamp="1478170229971" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\modules.xml" timestamp="1477651584111" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\.idea\workspace.xml" timestamp="1480432233250" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Mavuno101-master\Mavuno101-master.iml" timestamp="1477986630120" />
+  </project-files>
+</conversion>
+

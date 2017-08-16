@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\codeStyleSettings.xml" timestamp="1469600706544" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\compiler.xml" timestamp="1469597105602" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\copyright\profiles_settings.xml" timestamp="1469597105617" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\encodings.xml" timestamp="1469597105633" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\gradle.xml" timestamp="1469597137820" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1469878202383" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1469878202399" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1469878202419" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\junit_4_12.xml" timestamp="1469878202431" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1469878202455" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\support_v4_24_0_0.xml" timestamp="1469878202479" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1469878202503" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\misc.xml" timestamp="1470648122547" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\modules.xml" timestamp="1469597137836" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\runConfigurations.xml" timestamp="1469597137867" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\vcs.xml" timestamp="1469606780648" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\.idea\workspace.xml" timestamp="1473081764339" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\SpeechToText.iml" timestamp="1469597137789" />
+    <file path="C:\Users\Student\Desktop\SpeechToText\app\app.iml" timestamp="1473081711409" />
+  </project-files>
+</conversion>
+

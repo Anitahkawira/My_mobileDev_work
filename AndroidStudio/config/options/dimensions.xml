@@ -1,0 +1,55 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="683" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="390" y="175" />
+    <location key="SettingsEditor.0.0.1366.768" x="159" y="0" />
+    <location key="deploy.picker.dialog.0.0.1366.768" x="613" y="151" />
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="616" y="129" />
+    <location key="#Inspections.0.0.1366.768" x="309" y="27" />
+    <location key="AndroidCreateResourceFileDialog.0.0.1366.768" x="257" y="112" />
+    <location key="AndroidCreateResourceDirectoryDialog.0.0.1366.768" x="257" y="112" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1366.768" x="488" y="65" />
+    <location key="#Project_Structure.0.0.1366.768" x="265" y="8" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1366.768" x="404" y="0" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="137" y="12" />
+    <location key="Github.ShareDialog.0.0.1366.768" x="475" y="233" />
+    <location key="Github.UntrackedFilesDialog.0.0.1366.768" x="463" y="72" />
+    <location key="com.android.tools.idea.gradle.structure.editors.MavenDependencyLookupDialog.0.0.1366.768" x="442" y="183" />
+    <location key="AndroidCreateXmlResourceDialog.0.0.1366.768" x="541" y="163" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1366.768" x="413" y="112" />
+    <location key="IdeErrosDialog.0.0.1366.768" x="322" y="172" />
+    <location key="ProcessPopupWindow.0.0.1366.768" x="1018" y="489" />
+    <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1366.768" x="438" y="217" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1366.768" x="411" y="112" />
+    <location key="chooseDestDirectoryDialog.0.0.1366.768" x="499" y="135" />
+    <location key="#com.intellij.ide.util.PackageChooserDialog.0.0.1366.768" x="413" y="135" />
+    <location key="Github.CreatePullRequestDialog.0.0.1366.768" x="491" y="225" />
+    <location key="git4idea.merge.GitPullDialog.0.0.1366.768" x="430" y="146" />
+    <location key="GitCloneDialog.0.0.1366.768" x="416" y="267" />
+    <location key="AndroidThemeDialog.0.0.1366.768" x="263" y="62" />
+    <location key="#Intentions.0.0.1366.768" x="275" y="16" />
+    <location key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog.0.0.1366.768" x="239" y="274" />
+    <location key="#Gradle.0.0.1366.768" x="510" y="138" />
+    <location key="RollbackChangesDialog.0.0.1366.768" x="462" y="72" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1366.768" x="440" y="240" />
+    <location key="Vcs.Push.Dialog.0.0.1366.768" x="390" y="71" />
+    <location key="CommitChangelistDialog2.0.0.1366.768" x="336" y="62" />
+    <location key="NewModule_or_Project.wizard.0.0.1366.768" x="357" y="59" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1366.768" x="434" y="154" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1310" height="143" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1310" height="143" />
+    <size key="javadoc.popup.0.0.1366.768" width="446" height="165" />
+    <size key="SettingsEditor.0.0.1366.768" width="934" height="728" />
+    <size key="#Project_Structure.0.0.1366.768" width="920" height="648" />
+    <size key="com.android.tools.idea.gradle.structure.editors.MavenDependencyLookupDialog.0.0.1366.768" width="566" height="402" />
+    <size key="ProcessPopupWindow.0.0.1366.768" width="203" height="167" />
+    <size key="GitCloneDialog.0.0.1366.768" width="534" height="229" />
+    <size key="NewModule_or_Project.wizard.0.0.1366.768" width="654" height="609" />
+  </component>
+</application>

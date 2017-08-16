@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\compiler.xml" timestamp="1468485790315" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\copyright\profiles_settings.xml" timestamp="1468485790340" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\encodings.xml" timestamp="1468485790355" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\gradle.xml" timestamp="1468485851820" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1468506409641" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1468506409641" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1468506409688" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\junit_4_12.xml" timestamp="1468506409701" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1468506409723" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\support_v4_24_0_0.xml" timestamp="1468506409754" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1468506409801" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\misc.xml" timestamp="1468506616300" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\modules.xml" timestamp="1468485851838" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\runConfigurations.xml" timestamp="1468485851859" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\.idea\workspace.xml" timestamp="1473843446931" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\LoginandRegister.iml" timestamp="1468485851771" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\LoginandRegister\app\app.iml" timestamp="1473843414516" />
+  </project-files>
+</conversion>
+

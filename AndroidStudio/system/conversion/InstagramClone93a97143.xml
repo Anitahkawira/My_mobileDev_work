@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\compiler.xml" timestamp="1490423038355" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\copyright\profiles_settings.xml" timestamp="1490423038375" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\encodings.xml" timestamp="1490423038387" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\gradle.xml" timestamp="1490423061725" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\animated_vector_drawable_25_0_1.xml" timestamp="1498897832577" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\appcompat_v7_25_0_1.xml" timestamp="1498897832589" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\converter_gson_2_1_0.xml" timestamp="1498897832603" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\gson_2_7.xml" timestamp="1498897832620" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1498897832641" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\junit_4_12.xml" timestamp="1498897832651" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\okhttp_3_8_0.xml" timestamp="1498897832662" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\okio_1_13_0.xml" timestamp="1498897832673" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\retrofit_2_3_0.xml" timestamp="1498897832685" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_annotations_25_0_1.xml" timestamp="1498897832700" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_compat_25_0_1.xml" timestamp="1498897832715" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_core_ui_25_0_1.xml" timestamp="1498897832726" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_core_utils_25_0_1.xml" timestamp="1498897832743" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_fragment_25_0_1.xml" timestamp="1498897832777" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_media_compat_25_0_1.xml" timestamp="1498897832790" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_v4_25_0_1.xml" timestamp="1498897832871" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\libraries\support_vector_drawable_25_0_1.xml" timestamp="1498897832889" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\misc.xml" timestamp="1499494696193" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\modules.xml" timestamp="1490423061737" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\runConfigurations.xml" timestamp="1490423061749" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\.idea\workspace.xml" timestamp="1500124452105" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\InstagramClone.iml" timestamp="1490423061674" />
+    <file path="C:\Users\Student\.AndroidStudio2.1\InstagramClone\app\app.iml" timestamp="1500124428956" />
+  </project-files>
+</conversion>
+

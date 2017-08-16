@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\compiler.xml" timestamp="1466175159949" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\copyright\profiles_settings.xml" timestamp="1466175159968" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\encodings.xml" timestamp="1466175159978" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\gradle.xml" timestamp="1466175239644" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\inspectionProfiles\Project_Default.xml" timestamp="1466419049242" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\inspectionProfiles\profiles_settings.xml" timestamp="1466419049275" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\animated_vector_drawable_24_0_0.xml" timestamp="1466417237336" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\appcompat_v7_24_0_0.xml" timestamp="1466417237359" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\design_24_0_0.xml" timestamp="1466403150421" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\hamcrest_core_1_3.xml" timestamp="1466403150437" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\junit_4_12.xml" timestamp="1466403150452" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\recyclerview_v7_24_0_0.xml" timestamp="1466417237368" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\support_annotations_24_0_0.xml" timestamp="1466403150484" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\support_v4_24_0_0.xml" timestamp="1466417237377" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\libraries\support_vector_drawable_24_0_0.xml" timestamp="1466403150515" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\misc.xml" timestamp="1466175504375" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\modules.xml" timestamp="1466175239656" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\runConfigurations.xml" timestamp="1466175239670" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\.idea\workspace.xml" timestamp="1466419049209" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\Alice.iml" timestamp="1466175239536" />
+    <file path="C:\Users\Student\AndroidStudioProjects\Alice\app\app.iml" timestamp="1466417237186" />
+  </project-files>
+</conversion>
+
